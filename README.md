@@ -1,2 +1,2 @@
-# xamarin-demo-page
-Simple xamarin demo application.
+# Simple xamarin demo application
+This project is simple Xamarin.Forms application ready for use in Visual Studio. Contains demonstration of techniques like Xamarin, Xamarin.Forms, MVVM, bindings, commands etc. It was made for blog post at http://ermlab.com/2015/10/22/xamarin-forms-przykladowa-aplikacja/
