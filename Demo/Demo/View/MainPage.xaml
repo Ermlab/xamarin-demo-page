@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.View.MainPage">
+
+    <StackLayout>
+        <Label Text="Główna strona aplikacji demo" />
+        <Entry Text="{Binding NormalText}" Placeholder="Wprowadź tekst" />
+        <Label Text="{Binding NormalTextLength}" />
+        <Label Text="Tekst ma więcej niż 4 znaki!" IsVisible="{Binding NormalTextVisibility}" />
+        <Button Text="Oblicz magiczny tekst" Command="{Binding DoMagicCommand}" />
+        <Label Text="{Binding MagicText}" />
+        <Button Text="Przejdź do drugiej strony" Command="{Binding NextPageCommand}" />
+    </StackLayout>
+</ContentPage>
